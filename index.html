@@ -158,95 +158,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Html5本地存储和本地数据库" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-react" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/23/Html5本地存储和本地数据库/">Html5本地存储和本地数据库</a>
+      <a class="article-title" href="/2018/05/23/react/">react</a>
     </h1>
   
 
         
-        <a href="/2018/05/23/Html5本地存储和本地数据库/" class="archive-article-date">
-  	<time datetime="2018-05-23T03:05:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-05-23</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><a href="https://www.cnblogs.com/fly_dragon/p/3946012.html" target="_blank" rel="noopener">Html5本地存储和本地数据库</a></p>
-<!-- 查看更多 -->
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Html5,本地存储,本地数据库</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/05/23/Html5本地存储和本地数据库/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-react基础" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/05/09/react基础/">react基础</a>
-    </h1>
-  
-
-        
-        <a href="/2018/05/09/react基础/" class="archive-article-date">
-  	<time datetime="2018-05-09T09:39:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-05-09</time>
+        <a href="/2018/05/23/react/" class="archive-article-date">
+  	<time datetime="2018-05-23T03:19:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-05-23</time>
 </a>
         
       </header>
@@ -254,12 +179,12 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><a href="https://reactjs.org/docs/hello-world.html" target="_blank" rel="noopener">react官网</a></p>
-<!-- 查看更多 -->
 <h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><h4 id="1-无状态组件"><a href="#1-无状态组件" class="headerlink" title="1. 无状态组件"></a>1. 无状态组件</h4><ul>
 <li>在React中，组件的名字必须用大写字母开头，而包含该组件定义的文件名也应该是大写字母(便于区分，也可以不是)。</li>
 <li>无状态组件是纯展示组件，仅仅只是用于数据的展示，只根据传入的props来进行展示，不涉及到state状态处理，通过函数式的方式来创建一个无状态函数式组件(大多数组件都是无状态组件，通过简单的组合可以构建成其他的组件，最后合并成一个大的应用)。</li>
 <li>无状态函数式组件是一个只带有render方法的组件，通过函数形式或者箭头函数形式创建，该组件无state状态。</li>
 </ul>
+<!-- 查看更多 -->
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import React from &quot;react&quot;;</span><br><span class="line"></span><br><span class="line">//创建方式一,相当于es5的函数声明的方式创建</span><br><span class="line"> function NoState (props) &#123;</span><br><span class="line">     return (</span><br><span class="line">         &lt;div&gt;this is NoState Component&lt;/div&gt;</span><br><span class="line">     )</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//创建方式二,相当于es5的函数表达式的方式创建</span><br><span class="line">const NoState = (props) =&gt; &#123;</span><br><span class="line">    return (</span><br><span class="line">        &lt;div&gt;this is Nostate Component&lt;/div&gt;</span><br><span class="line">    )</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">export default NoState</span><br></pre></td></tr></table></figure>
 <hr>
@@ -339,7 +264,82 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2018/05/09/react基础/">展开全文 >></a>
+          <a class="article-more-a" href="/2018/05/23/react/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Html5本地存储和本地数据库" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/05/23/Html5本地存储和本地数据库/">Html5本地存储和本地数据库</a>
+    </h1>
+  
+
+        
+        <a href="/2018/05/23/Html5本地存储和本地数据库/" class="archive-article-date">
+  	<time datetime="2018-05-23T03:05:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-05-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://www.cnblogs.com/fly_dragon/p/3946012.html" target="_blank" rel="noopener">Html5本地存储和本地数据库</a></p>
+<!-- 查看更多 -->
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Html5,本地存储,本地数据库</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/05/23/Html5本地存储和本地数据库/">展开全文 >></a>
         </p>
       
 

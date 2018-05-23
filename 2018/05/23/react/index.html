@@ -17,7 +17,7 @@
 <meta property="og:description" content="react官网 组件1. 无状态组件 在React中，组件的名字必须用大写字母开头，而包含该组件定义的文件名也应该是大写字母(便于区分，也可以不是)。 无状态组件是纯展示组件，仅仅只是用于数据的展示，只根据传入的props来进行展示，不涉及到state状态处理，通过函数式的方式来创建一个无状态函数式组件(大多数组件都是无状态组件，通过简单的组合可以构建成其他的组件，最后合并成一个大的应用)。 无状">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://images2017.cnblogs.com/blog/1106982/201708/1106982-20170811224737742-1564011484.jpg">
-<meta property="og:updated_time" content="2018-05-23T03:19:45.831Z">
+<meta property="og:updated_time" content="2018-05-23T03:26:32.449Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="react">
 <meta name="twitter:description" content="react官网 组件1. 无状态组件 在React中，组件的名字必须用大写字母开头，而包含该组件定义的文件名也应该是大写字母(便于区分，也可以不是)。 无状态组件是纯展示组件，仅仅只是用于数据的展示，只根据传入的props来进行展示，不涉及到state状态处理，通过函数式的方式来创建一个无状态函数式组件(大多数组件都是无状态组件，通过简单的组合可以构建成其他的组件，最后合并成一个大的应用)。 无状">
@@ -189,7 +189,7 @@
 <li>无状态组件是纯展示组件，仅仅只是用于数据的展示，只根据传入的props来进行展示，不涉及到state状态处理，通过函数式的方式来创建一个无状态函数式组件(大多数组件都是无状态组件，通过简单的组合可以构建成其他的组件，最后合并成一个大的应用)。</li>
 <li>无状态函数式组件是一个只带有render方法的组件，通过函数形式或者箭头函数形式创建，该组件无state状态。</li>
 </ul>
-<!-- 查看更多 -->
+<a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import React from &quot;react&quot;;</span><br><span class="line"></span><br><span class="line">//创建方式一,相当于es5的函数声明的方式创建</span><br><span class="line"> function NoState (props) &#123;</span><br><span class="line">     return (</span><br><span class="line">         &lt;div&gt;this is NoState Component&lt;/div&gt;</span><br><span class="line">     )</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//创建方式二,相当于es5的函数表达式的方式创建</span><br><span class="line">const NoState = (props) =&gt; &#123;</span><br><span class="line">    return (</span><br><span class="line">        &lt;div&gt;this is Nostate Component&lt;/div&gt;</span><br><span class="line">    )</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">export default NoState</span><br></pre></td></tr></table></figure>
 <hr>
